@@ -1,6 +1,7 @@
 body{
     font-family: var(--main-font);
 }
+/* Header start*/
 .header{
     padding: 57px 0;
 }
@@ -43,8 +44,9 @@ body{
     height: 20px;
     padding: 2px;
 }
+/* Header end*/
 
-/* Responsive */
+/* Responsive start*/
 @media screen and (max-width: 1200px) {
     .header .list, .header .search{
         display: none;
@@ -53,3 +55,28 @@ body{
         display: block;
     }
 }
+/* Responsive end*/
+
+/* Footer start*/
+.footer{
+    background-color: #EEEFFB;
+    color: #8A8FB9;
+    padding: 50px 0;
+}
+
+.footer .left-side{
+    gap: 35px;
+    align-items: flex-start;
+}
+
+.footer .right-side{
+    width: 60%;
+}
+.footer .nav a{
+    gap: 45px;
+}
+.footer a{
+    text-decoration: none;
+    color: #8A8FB9;
+}
+/* Footer end*/
