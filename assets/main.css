@@ -46,6 +46,27 @@ body{
 }
 /* Header end*/
 
+/* newslatter start*/
+.newslater{
+    background-image: url('./img/public/newslater-bg.png');
+    padding: 175px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.newslater h2{
+    color: #151875;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.shop-btn{
+    transition: all .7s;
+}
+.shop-btn:hover{
+    background-color: #0D0E43;
+}
+/* newslatter end*/
+
 /* Responsive start*/
 @media screen and (max-width: 1200px) {
     .header .list, .header .search{
