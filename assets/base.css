@@ -179,9 +179,7 @@ ul {
 .gap-6 {
   gap: 30px;
 }   
-.flex-direction {
-  flex-direction: column;
-}
+
 .position-relative { 
   position: relative;
  }
