@@ -47,6 +47,11 @@ body{
 /* Header end*/
 
 /* featured-product start*/
+.product{
+    position: relative;
+    overflow: hidden;
+}
+
 .featured-product{
     padding: 50px 0;
 }
@@ -60,14 +65,27 @@ body{
     box-shadow: 0 4px 4px #00000040;
 }
 .featured-product .product:hover{
-    box-shadow: 0 4px 4px #ffffff40;
+    box-shadow: #ffffff40;
     background-color: #2F1AC4;
+    transition: all .7s;
+}
+.featured-product .product:hover .img{
+    background-color: #ffffff;
     transition: all .7s;
 }
 .featured-product .product:hover h3, .featured-product .product:hover .product-info {
     color: #fff;
     transition: all .7s;
 }
+.featured-product .product:hover .color-three{
+    transition: all .7s;
+    background-color: #FFEAC1;
+}
+.featured-product .product:hover .btn-success{
+    visibility: visible;
+    transition: all .7s;
+}
+
 .featured-product h2{
     color: #1A0B5B;
     padding-bottom: 43px;
@@ -76,8 +94,15 @@ body{
 .featured-product .img{
     background-color: #F6F7FB;
 }
-.featured-product img{
-    padding: 46px 52px 12px 40px;
+.featured-product .product .img img{
+    padding: 46px 52px 0 40px;
+}
+
+#featured-product img{
+    padding: 46px 52px 0 40px;
+}
+.featured-product .img{
+    padding-bottom: 12px;
 }
 .featured-product h3{
     color: var(--primary-color);
@@ -88,8 +113,49 @@ body{
     padding-bottom: 17px;
     font-size: 14px;
 }
+.color{
+    height: 4px;
+    width: 14px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.color-one{
+    background-color: #05E6B7;
+}
+.color-two{
+    background-color: #F701A8;
+}
+.color-three{
+    background-color: #00009D;
+}
+.btn-success{
+    visibility: hidden;
+    color: #ffffff;
+    padding: 8px 13px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.featured-product .product:hover .img .btn-icon{
+    transition: all .7s;
+        visibility: visible;
+}
 
-
+.featured-product .product .img .btn-icon{
+    visibility: hidden;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    cursor: pointer;
+}
+.featured-product .product .img .btn-icon img{
+    padding: 0;
+}
+.featured-product .product .img .btn-icon img:hover{
+    transition: all .7s;
+    background-color: #EEEFFB;
+}
 /* featured-product end*/
 
 /* newslatter start*/

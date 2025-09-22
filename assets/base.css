@@ -15,7 +15,6 @@ ul {
 }
 .btn{
     border: none;
-    background-color: var(--primary-color);
     color: #ffffff;
     padding: 16px 40px;
     outline: border;
@@ -216,4 +215,10 @@ ul {
 
 .text-white{
     color: #ffffff;
+}
+.text-primary{
+    color: var(--primary-color);
+}
+.text-dark{
+    color: #000000;
 }
