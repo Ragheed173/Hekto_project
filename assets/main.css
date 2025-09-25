@@ -4,6 +4,9 @@ body {
 
 /* Header start*/
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 57px 0;
 }
 
@@ -55,35 +58,65 @@ body {
 /* Header end*/
 
 /* Hero start*/
-.hero{
-    background-image: url('./img/public/promotion-bg.svg');
-    padding: 203px 0;
-    background-size: cover;
-    background-position: center;
+.hero {
+    background-color: #F2F0FF;
+    padding: 50px 0;
 }
 
-.hero .heading-text h1 {
+.hero-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 0 60%;
+}
+.hero-img{
+    flex: 1 0 30%;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero .text-content h1 {
     color: var(--primary-color);
+    font-family: 'Lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
     font-size: 16px;
-} 
+    line-height: 28px;
+    letter-spacing: 0;
+}
 
-.hero .heading-text h2 {
+.hero .text-content h2 {
+    font-family: 'Josefin Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 53px;
+    line-height: 171%;
+    letter-spacing: 1.5%;
 }
 
-.hero .heading-text p{
+.hero .text-content pre {
     color: #8A8FB9;
+    font-family: 'Lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
 }
 
-.hero .heading-text {
-    justify-content: flex-start;
+.hero-content .hero-lamp{
+    position: relative;
+    bottom: 201px;
+    width: 20%;
 }
-
-.hero .heading-img{
-    background-image: url('./img/public/Shell-Shaped-Armchair-Pink-Velvet-Fabric-One-Seater-Sofa-for-Living-Room.svg');
-    background-size: cover;
-    background-position: center;
-
+.hero .shop-btn {
+    display: inline-block;
+    align-self: flex-start;
 }
 /* Hero end*/
 
