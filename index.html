@@ -1,315 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <!--google fonts css-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!--base css-->
-    <link rel="stylesheet" href="./assets/base.css" />
-    <!--custom css-->
-    <link rel="stylesheet" href="./assets/main.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-  <body>
-    <header class="header">
+  <!--google fonts css-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!--base css-->
+  <link rel="stylesheet" href="./assets/base.css" />
+  <!--custom css-->
+  <link rel="stylesheet" href="./assets/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./assets/img/public/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <nav class="list">
+          <ul>
+            <li>
+              <a href="./index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="">Pages</a>
+            </li>
+            <li>
+              <a href="">Products</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+            <li>
+              <a href="">Shop</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="search">
+          <form>
+            <input type="text" />
+            <button type="submit">
+              <img src="./assets/img/public/saerch_icon.svg" alt="search" />
+            </button>
+          </form>
+        </div>
+        <svg class="bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+          <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            d="M96 144C96 135.2 103.2 128 112 128L528 128C536.8 128 544 135.2 544 144C544 152.8 536.8 160 528 160L112 160C103.2 160 96 152.8 96 144zM96 320C96 311.2 103.2 304 112 304L528 304C536.8 304 544 311.2 544 320C544 328.8 536.8 336 528 336L112 336C103.2 336 96 328.8 96 320zM544 496C544 504.8 536.8 512 528 512L112 512C103.2 512 96 504.8 96 496C96 487.2 103.2 480 112 480L528 480C536.8 480 544 487.2 544 496z" />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="row flex-column gap-7">
+          <div class="heading d-flex gap-5">
+            <div class="heading-text flex-column gap-3">
+              <h1>Best Furniture For Your Castle....</h1>
+              <h2>New Furniture Collection</h2>
+              <h2>Trends in 2020</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+            </div>
+            <div class="heading-img">
+              <img src="./assets/img/public/Shell-Shaped-Armchair-Pink-Velvet-Fabric-One-Seater-Sofa-for-Living-Room.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="featured-product text-center">
+      <h2>Featured Product</h2>
+      <div class="container">
+        <div class="row">
+          <div class="product flex-column ">
+            <div class="img">
+              <img src="./assets/img/products/product1.webp" alt="featured-product" />
+              <div class="view-details">
+                <a href="" class="btn-success">View Details</a>
+              </div>
+              <div class="btn-icon d-flex gap-3">
+                <img src="./assets/img/products/bucket-icon.svg" alt="bucket_icon" />
+                <img src="./assets/img/products/fav-icon.svg" alt="fav_icon" />
+                <img src="./assets/img/products/more-icon.svg" alt="more_icon" />
+              </div>
+            </div>
+            <div class="product-details flex-column gap-3">
+              <h3>Cantilever chair</h3>
+              <div class="coloc-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info flex-column gap-2">
+                <span>code - Y523201</span>
+                <span>$42.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="product flex-column ">
+            <div class="img">
+              <img src="./assets/img/products/image 1.png" alt="featured-product" />
+              <div class="btn-icon d-flex gap-3">
+                <img src="./assets/img/products/bucket-icon.svg" alt="bucket_icon" />
+                <img src="./assets/img/products/fav-icon.svg" alt="fav_icon" />
+                <img src="./assets/img/products/more-icon.svg" alt="more_icon" />
+              </div>
+              <div class="view-details">
+                <a href="" class="btn-success">View Details</a>
+              </div>
+            </div>
+            <div class="product-details flex-column gap-3">
+              <h3>Cantilever chair</h3>
+              <div class="coloc-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info flex-column gap-2">
+                <span>code - Y523201</span>
+                <span>$42.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="product flex-column ">
+            <div class="img">
+              <img src="./assets/img/products/image 1169.png" alt="featured-product" />
+              <div class="btn-icon d-flex gap-3">
+                <img src="./assets/img/products/bucket-icon.svg" alt="bucket_icon" />
+                <img src="./assets/img/products/fav-icon.svg" alt="fav_icon" />
+                <img src="./assets/img/products/more-icon.svg" alt="more_icon" />
+              </div>
+              <div class="view-details">
+                <a href="" class="btn-success">View Details</a>
+              </div>
+            </div>
+            <div class="product-details flex-column gap-3">
+              <h3>Cantilever chair</h3>
+              <div class="coloc-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info flex-column gap-2">
+                <span>code - Y523201</span>
+                <span>$42.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="product flex-column ">
+            <div class="img">
+              <img src="./assets/img/products/image 3.png" alt="featured-product" />
+              <div class="btn-icon d-flex gap-3">
+                <img src="./assets/img/products/bucket-icon.svg" alt="bucket_icon" />
+                <img src="./assets/img/products/fav-icon.svg" alt="fav_icon" />
+                <img src="./assets/img/products/more-icon.svg" alt="more_icon" />
+              </div>
+              <div class="view-details">
+                <a href="" class="btn-success">View Details</a>
+              </div>
+            </div>
+            <div class="product-details flex-column gap-3">
+              <h3>Cantilever chair</h3>
+              <div class="coloc-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info flex-column gap-2">
+                <span>code - Y523201</span>
+                <span>$42.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newslater">
+      <h2>
+        Get Leatest Update By Subscribe Our Newslater
+      </h2>
+      <a href="" class="btn btn-primary shop-btn">Shop Now</a>
+    </section>
+    <section class="clints">
       <div class="container">
         <div class="row">
           <div class="logo">
-            <a href="./index.html">
-              <img src="./assets/img/public/logo.svg" alt="logo" />
-            </a>
+            <img src="./assets/img/public/clints.webp" alt="client-1" />
           </div>
-          <nav class="list">
-            <ul>
-              <li>
-                <a href="./index.html" class="active">Home</a>
-              </li>
-              <li>
-                <a href="">Pages</a>
-              </li>
-              <li>
-                <a href="">Products</a>
-              </li>
-              <li>
-                <a href="">Blog</a>
-              </li>
-              <li>
-                <a href="">Shop</a>
-              </li>
-              <li>
-                <a href="">Contact</a>
-              </li>
-            </ul>
-          </nav>
+          <div class="logo">
+            <img src="./assets/img/public/clints.webp" alt="client-2" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/public/clints.webp" alt="client-3" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/public/clints.webp" alt="client-4" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/public/clints.webp" alt="client-5" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/public/clints.webp" alt="client-6" />
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="left-side d-flex flex-column gap-2">
+          <img src="./assets/img/public/logo.svg" alt="logo" />
           <div class="search">
             <form>
-              <input type="text" />
-              <button type="submit">
-                <img src="./assets/img/public/saerch_icon.svg" alt="search" />
-              </button>
+              <input type="email" placeholder="Enter Email Address" />
+              <button type="submit" class="text-white">Sign Up</button>
             </form>
           </div>
-          <svg
-            class="bar"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 640 640"
-          >
-            <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-            <path
-              d="M96 144C96 135.2 103.2 128 112 128L528 128C536.8 128 544 135.2 544 144C544 152.8 536.8 160 528 160L112 160C103.2 160 96 152.8 96 144zM96 320C96 311.2 103.2 304 112 304L528 304C536.8 304 544 311.2 544 320C544 328.8 536.8 336 528 336L112 336C103.2 336 96 328.8 96 320zM544 496C544 504.8 536.8 512 528 512L112 512C103.2 512 96 504.8 96 496C96 487.2 103.2 480 112 480L528 480C536.8 480 544 487.2 544 496z"
-            />
-          </svg>
+          <div class="contact-info">
+            <p>Contact Info</p>
+            <address>17 Princess Road, London, Greater London NW1 8JR, UK</address>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="row">
+            <div class="footer-item d-flex flex-column gap-3">
+              <h2>Catagories</h2>
+              <nav class="d-flex flex-column gap-6">
+                <a href="">Laptops & Computers</a>
+                <a href="">Cameras & Photography</a>
+                <a href="">Smart Phones & Tablets</a>
+                <a href="">Video Games & Consoles</a>
+                <a href="">Waterproof Headphones</a>
+              </nav>
+            </div>
+            <div class="footer-item d-flex flex-column gap-3">
+              <h2>Customer Care</h2>
+              <nav class="d-flex flex-column gap-6">
+                <a href="">My Account</a>
+                <a href="">Discount</a>
+                <a href="">Returns</a>
+                <a href="">Orders History</a>
+                <a href="">Order Tracking</a>
+              </nav>
+            </div>
+            <div class="footer-item d-flex flex-column gap-3">
+              <h2>Pages</h2>
+              <nav class="d-flex flex-column gap-6">
+                <a href="">Blog</a>
+                <a href="">Browse the Shop</a>
+                <a href="">Category</a>
+                <a href="">Pre-Built Pages</a>
+                <a href="">Visual Composer Elements</a>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </div>
+  </footer>
+</body>
 
-    <main>
-      <section class="featured-product text-center">
-        <h2>Featured Product</h2>
-        <div class="container">
-          <div class="row">
-            <div class="product flex-column ">
-              <div class="img">
-                <img
-                  src="./assets/img/products/product1.webp"
-                  alt="featured-product"
-                />
-                <div class="view-details">
-                  <a href="" class="btn-success">View Details</a>
-                </div>
-                <div class="btn-icon d-flex gap-3">
-                  <img
-                    src="./assets/img/products/bucket-icon.svg"
-                    alt="bucket_icon"
-                  />
-                  <img
-                    src="./assets/img/products/fav-icon.svg"
-                    alt="fav_icon"
-                  />
-                  <img
-                    src="./assets/img/products/more-icon.svg"
-                    alt="more_icon"
-                  />
-                </div>
-              </div>
-              <div class="product-details flex-column gap-3">
-                <h3>Cantilever chair</h3>
-                <div class="coloc-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info flex-column gap-2">
-                  <span>code - Y523201</span>
-                  <span>$42.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="product flex-column ">
-              <div class="img">
-                <img
-                  src="./assets/img/products/image 1.png"
-                  alt="featured-product"
-                />
-                <div class="btn-icon d-flex gap-3">
-                  <img
-                    src="./assets/img/products/bucket-icon.svg"
-                    alt="bucket_icon"
-                  />
-                  <img
-                    src="./assets/img/products/fav-icon.svg"
-                    alt="fav_icon"
-                  />
-                  <img
-                    src="./assets/img/products/more-icon.svg"
-                    alt="more_icon"
-                  />
-                </div>
-                <div class="view-details">
-                  <a href="" class="btn-success">View Details</a>
-                </div>
-              </div>
-              <div class="product-details flex-column gap-3">
-                <h3>Cantilever chair</h3>
-                <div class="coloc-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info flex-column gap-2">
-                  <span>code - Y523201</span>
-                  <span>$42.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="product flex-column ">
-              <div class="img">
-                <img
-                  src="./assets/img/products/image 1169.png"
-                  alt="featured-product"
-                />
-                <div class="btn-icon d-flex gap-3">
-                  <img
-                    src="./assets/img/products/bucket-icon.svg"
-                    alt="bucket_icon"
-                  />
-                  <img
-                    src="./assets/img/products/fav-icon.svg"
-                    alt="fav_icon"
-                  />
-                  <img
-                    src="./assets/img/products/more-icon.svg"
-                    alt="more_icon"
-                  />
-                </div>
-                <div class="view-details">
-                  <a href="" class="btn-success">View Details</a>
-                </div>
-              </div>
-              <div class="product-details flex-column gap-3">
-                <h3>Cantilever chair</h3>
-                <div class="coloc-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info flex-column gap-2">
-                  <span>code - Y523201</span>
-                  <span>$42.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="product flex-column ">
-              <div class="img">
-                <img
-                  src="./assets/img/products/image 3.png"
-                  alt="featured-product"
-                />
-                <div class="btn-icon d-flex gap-3">
-                  <img
-                    src="./assets/img/products/bucket-icon.svg"
-                    alt="bucket_icon"
-                  />
-                  <img
-                    src="./assets/img/products/fav-icon.svg"
-                    alt="fav_icon"
-                  />
-                  <img
-                    src="./assets/img/products/more-icon.svg"
-                    alt="more_icon"
-                  />
-                </div>
-                <div class="view-details">
-                  <a href="" class="btn-success">View Details</a>
-                </div>
-              </div>
-              <div class="product-details flex-column gap-3">
-                <h3>Cantilever chair</h3>
-                <div class="coloc-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info flex-column gap-2">
-                  <span>code - Y523201</span>
-                  <span>$42.00</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="newslater">
-        <h2>
-          Get Leatest Update By Subscribe Our Newslater
-        </h2>
-        <a href="" class="btn btn-primary shop-btn">Shop Now</a>
-      </section>
-      <section class="clints">
-        <div class="container">
-          <div class="row">
-            <div class="logo">
-              <img src="./assets/img/public/clints.webp" alt="client-1" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/public/clints.webp" alt="client-2" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/public/clints.webp" alt="client-3" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/public/clints.webp" alt="client-4" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/public/clints.webp" alt="client-5" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/public/clints.webp" alt="client-6" />
-            </div>
-          </div>
-      </section>
-    </main>
-    
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="left-side d-flex flex-column gap-2">
-            <img src="./assets/img/public/logo.svg" alt="logo" />
-            <div class="search">
-              <form>
-                <input type="email" placeholder="Enter Email Address" />
-                <button type="submit" class="text-white">Sign Up</button>
-              </form>
-            </div>
-            <div class="contact-info">
-              <p>Contact Info</p>
-              <address>17 Princess Road, London, Greater London NW1 8JR, UK</address>
-            </div>
-          </div>
-          <div class="right-side">
-            <div class="row">
-              <div class="footer-item d-flex flex-column gap-3">
-                <h2>Catagories</h2>
-                <nav class="d-flex flex-column gap-6">
-                  <a href="">Laptops & Computers</a>
-                  <a href="">Cameras & Photography</a>
-                  <a href="">Smart Phones & Tablets</a>
-                  <a href="">Video Games & Consoles</a>
-                  <a href="">Waterproof Headphones</a>
-                </nav>
-              </div>
-              <div class="footer-item d-flex flex-column gap-3">
-                <h2>Customer Care</h2>
-                <nav class="d-flex flex-column gap-6">
-                  <a href="">My Account</a>
-                  <a href="">Discount</a>
-                  <a href="">Returns</a>
-                  <a href="">Orders History</a>
-                  <a href="">Order Tracking</a>
-                </nav>
-              </div>
-              <div class="footer-item d-flex flex-column gap-3">
-                <h2>Pages</h2>
-                <nav class="d-flex flex-column gap-6">
-                  <a href="">Blog</a>
-                  <a href="">Browse the Shop</a>
-                  <a href="">Category</a>
-                  <a href="">Pre-Built Pages</a>
-                  <a href="">Visual Composer Elements</a>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
