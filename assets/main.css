@@ -403,6 +403,65 @@ body {
 
 /* leatest-products end*/
 
+/* shopex start*/
+.shopex{
+    padding: 50px 0;
+}
+
+.shopex h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #151875;
+    font-size: 42px;
+    font-weight: 700px;
+    padding-bottom: 56px;
+}
+
+.shopex .offers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.shopex .offers .offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+    padding: 67px 27px 45px 27px;
+}
+
+.shopex .offers .offer .offer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    max-width: 217px;
+    max-height: 127px;
+}
+
+.shopex .offers .offer .offer-text h2{
+    font-size: 22px;
+    color: #151875;
+}
+
+.shopex .offers .offer .offer-text p{
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: bold;
+    color: #1A0B5Bb3;
+}
+/* shopex end*/
+
 /* top categories start*/
 .top-categories {
     padding: 50px 0;
