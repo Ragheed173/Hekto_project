@@ -462,6 +462,79 @@ body {
 }
 /* shopex end*/
 
+/* trending products start*/
+.trending-products{
+    padding: 50px 0;
+}
+
+.trending-products h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #151875;
+    font-size: 42px;
+    font-weight: 700px;
+    padding-bottom: 56px;
+}
+
+.trending-products .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.trending-products .products .product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+    padding: 11px 12px 0px 11px;
+}
+
+.trending-products .products .product .product-img img{
+    background-color: #f5f6f8;
+}
+
+.trending-products #img1 { padding: 41px 35px 32px 41px; }
+.trending-products #img2{ padding: 30px; }
+.trending-products #img3 { padding: 27px 25px; }
+.trending-products #img4 { padding: 15px 6px 14px 0px; }
+
+.trending-products .products .product .product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 32px;
+}
+
+.trending-products .products .product .product-details h2{
+    font-size: 16px;
+    color: #151875;
+    font-weight: bold;
+}
+
+.trending-products .products .product .product-details .product-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #1A0B5B;
+    gap: 12px;
+}
+.trending-products .products .product .product-details .product-price .old{
+    font-size: 12px;
+    color: #151875b3;
+    text-decoration: line-through;
+}
+/* trending products end*/
+
 /* top categories start*/
 .top-categories {
     padding: 50px 0;
