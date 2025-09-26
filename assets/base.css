@@ -275,8 +275,8 @@ ul {
 }
 
 .container {
-    width: calc(100% - 320px);
-    margin: auto;
+    width: calc(100% - 367px);
+    margin: 0 auto;
 }
 
 .text-white {
