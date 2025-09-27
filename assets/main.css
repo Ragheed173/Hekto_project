@@ -293,6 +293,9 @@ body {
 /* featured-product end*/
 
 /* leatest-products start*/
+.leatest-products .container{
+    width: calc(100% - 367px);
+}
 .leatest-products .product {
     display: flex;
     flex-wrap: wrap;
@@ -846,12 +849,7 @@ body {
 
 .clints .row {
     flex-wrap: nowrap;
-    gap: 15px;
     overflow-x: auto;
-}
-
-.clints .logo {
-    width: calc((100% - 75px)/6);
 }
 
 .clints img {
