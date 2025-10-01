@@ -191,24 +191,6 @@ ul {
   align-items: center;
 }
 
-@media screen and (max-width: 1400px) {
-  .container {
-    width: calc(100% - 200px);
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .container {
-    width: calc(100% - 100px);
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .container {
-    width: calc(100% - 40px);
-  }
-}
-
 .gap-1 {
   gap: 5px;
 }
@@ -272,10 +254,9 @@ ul {
 }
 
 .container {
-  width: calc(100% - 320px);
+  width: calc(100% - 376px);
   margin: 0 auto;
 }
-
 .text-white {
   color: #ffffff;
 }
