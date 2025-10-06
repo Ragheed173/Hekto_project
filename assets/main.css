@@ -274,7 +274,7 @@ body {
 .leatest-products .product .img-details {
     display: flex;
     align-items: center;
-    gap: 104px;
+    justify-content: space-between;
     color: #151875;
     font-size: 16px;
     font-weight: 400;
@@ -345,16 +345,16 @@ body {
         margin: 0 auto;
     }
 }
-
 @media screen and (max-width: 820px){
     .leatest-products .products {
     gap: 20px;
     }
 }
 @media screen and (max-width: 320px){
-    .leatest-products .products {
-    padding: 5px;
-    }
+    .leatest-products .product .product-img #imgs {
+    background-color: #F7F7F7;
+    padding: 33px 30px 7.96px 30px;
+}
 }
 /* leatest-products end*/
 
@@ -411,7 +411,7 @@ body {
 }
 @media screen and (max-width: 1440px) {
   .shopex .container{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
   }
 }
@@ -478,7 +478,7 @@ body {
 }
 @media screen and (max-width: 1440px) {
   .trending-products .container{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
   }
 }
@@ -563,7 +563,7 @@ body {
 }
 @media screen and (max-width: 1440px) {
   .top-categories .container{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
   }
 }
@@ -602,10 +602,9 @@ body {
     width: 100px;
     height: 100px;
 }
-
 @media screen and (max-width: 1440px) {
   .clints .container{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
   }
 }
@@ -636,6 +635,8 @@ body {
 .leatest-blog .blogs .blog {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
@@ -678,8 +679,8 @@ body {
     font-size: 18px;
 }
 .leatest-blog .blogs .blog .blog-details .blog-text p{
-    width: 301px;
     color: #72718F ;
+    width: 70%;
 }
 .leatest-blog .blogs .blog:hover .blog-details .blog-text a,
 .leatest-blog .blogs .blog:hover .blog-details .blog-text h2{
@@ -688,9 +689,15 @@ body {
 }
 @media screen and (max-width: 1440px) {
   .leatest-blog .container{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
   }
+}
+@media screen and (max-width: 320px) {
+  .leatest-blog .blogs .blog .blog-img img{
+    border-radius: 8px;
+    width: 300px;
+}
 }
 /* leatest-blog end*/
 
