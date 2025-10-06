@@ -353,7 +353,7 @@ body {
 @media screen and (max-width: 320px){
     .leatest-products .product .product-img #imgs {
     background-color: #F7F7F7;
-    padding: 33px 30px 7.96px 30px;
+    padding: 33px 30px 7px 30px;
 }
 }
 /* leatest-products end*/
